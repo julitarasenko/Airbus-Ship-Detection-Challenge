@@ -22,6 +22,7 @@ This project focuses on ship segmentation within maritime images using a U-Net a
 - Generating ship segmentation predictions on new images
 
 ## Requirements
+To be able to run tests locally you need to replace path to dataset at `ship_dir` variable in both `train.py` and `test.py`
 - Python 3.10.12
 - TensorFlow 2.13.0
 - pandas 2.0.3
